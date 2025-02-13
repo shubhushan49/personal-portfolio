@@ -1,0 +1,39 @@
+/* About.css */
+#about {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    color: white;
+    padding: 20px;
+    min-height: 100vh; /* Ensure it takes the full height of the viewport */
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about h2 {
+    color: #ffcc00; /* Match the hover color */
+}
+
+#about p, #about ul {
+    color: white;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+}
+
+#about a {
+    color: #ffcc00; /* Match the hover color */
+    text-decoration: none;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
