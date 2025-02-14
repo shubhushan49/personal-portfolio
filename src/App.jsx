@@ -9,7 +9,7 @@ import Education from './pages/Education';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/personal-portfolio">
       <div id="root">
         <Header />
         <div className="main-content">
