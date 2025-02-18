@@ -1,0 +1,54 @@
+#experience {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  color: white;
+  padding: 20px;
+  min-height: 100vh; /* Ensure it takes the full height of the viewport */
+}
+
+#experience .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#experience .company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#experience h2 {
+  color: #ffcc00; /* Match the hover color */
+}
+
+#experience .role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px; /* Indent roles */
+}
+
+#experience h3 {
+  color: #ffcc00; /* Match the hover color */
+}
+
+#experience p, #experience ul {
+  color: white;
+}
+
+#experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#experience ul li {
+  margin-bottom: 10px;
+}
+
+#experience .role {
+  margin-left: 20px; /* Indent roles */
+}
+
+#experience .responsibilities {
+  margin-left: 40px; /* Further indent responsibilities */
+}
